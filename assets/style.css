@@ -10,9 +10,6 @@ body{
     justify-content: center;
     font-family: sans-serif;
 }
-h1 {
-  margin-top: 2em;
-}
 
 .container{
     width: 800px;
