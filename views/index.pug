@@ -10,7 +10,7 @@ html(lang="en")
     .container
       h1 Github Profile
       form(hx-post="/users", hx-target="#profile")
-        input#search(type="search", placeholder="Search here...",name="username")
+        input#search(type="search", placeholder="Search here...",name="username",required)
         button#searchBtn(type="submit") Search
       main#profile
         h2 Search for a Github Profile !
